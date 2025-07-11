@@ -1,5 +1,5 @@
 {% set name = "nirtorch" %}
-{% set version = "2.0.4" %}
+{% set version = "2.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nirtorch-{{ version }}.tar.gz
-  sha256: d3330464bc398e6157009b4c4276042084d54b8b223f85bc2cf4aa028c02560b
+  sha256: 445a41e14547fd5f45714218591b321622679a92ac17dc4d3e42b252c93cc44e
 
 build:
   noarch: python
